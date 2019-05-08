@@ -1,7 +1,9 @@
 ```python
 
-a = 10
-b = 2
-print(*divmod(a, b))
-# result 5 0
+items = ("apple", "mellon")
+one, two = items
+print(one)
+# result "apple"
+print(two)
+# result "mellon"
 ```
