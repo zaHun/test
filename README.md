@@ -1,10 +1,13 @@
 ```javascript
-
+let a = 10
+console.log(a)
+// 10
 if(true){
-  var a = 20
-  // a 는 10 
+  let a = 20
+  console.log(a)
+  // 20
 }
 console.log(a)
-// Uncaught ReferenceError
+// 10
 
 ```
