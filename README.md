@@ -9,5 +9,6 @@ if(true){
 }
 console.log(a)
 // 10
+let a = 20
 
 ```
