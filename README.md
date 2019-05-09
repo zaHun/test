@@ -1,8 +1,5 @@
 ```javascript
 
-var a = 10
-console.log(a)
-// 10
 if(true){
   var a = 20
   // a 는 20 재선언
