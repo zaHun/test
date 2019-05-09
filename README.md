@@ -1,6 +1,6 @@
 ```javascript
 
 alert(a)
-let a = 10
+var a = 10
 
 ```
