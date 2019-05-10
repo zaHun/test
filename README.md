@@ -1,9 +1,14 @@
 ```javascript
 
 function a(){
-   console.log(typeof(arguments)+" : "+arguments.length)
+   function b(){
+       console.log("B")
+   }
+   b()
+   console.log("A")
 }
-a(1, 2, 3, 4, 5)
-// Object : 5
+a()
+// "B"
+// "A"
 
 ```
