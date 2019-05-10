@@ -1,7 +1,10 @@
 ```javascript
 
-for(let i=0;i<10;i++){
-  실행문
+let arr = ['A', 'B', 'C', 'D']
+for(let item in arr){
+   console.log(arr[item])
 }
+// "A"
+// "B"
 
 ```
