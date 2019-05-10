@@ -1,7 +1,7 @@
 ```javascript
 
 a()
-let a = function(){
+function a(){
    alert("A")
 }
 // Uncaught ReferenceError
