@@ -1,11 +1,9 @@
 ```javascript
 
-function a(width, height){
-   console.log("E")
-   return
-   console.log(width+" : "+height)
+function a(){
+   console.log(typeof(arguments)+" : "+arguments.length)
 }
-a(10, 20)
-// E
+a(1, 2, 3, 4, 5)
+// Object : 5
 
 ```
