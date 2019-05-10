@@ -1,6 +1,6 @@
 ```javascript
 
-for(초기식;조건식;종결식){
+for(let i=0;i<10;i++){
   실행문
 }
 
