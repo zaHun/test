@@ -1,10 +1,8 @@
 ```javascript
 
-let arr = ['A', 'B', 'C', 'D']
-for(let item in arr){
-   console.log(arr[item])
+let a = function(){
+   alert("output")
 }
-// "A"
-// "B"
+alert(a)
 
 ```
