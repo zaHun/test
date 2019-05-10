@@ -1,9 +1,9 @@
 ```javascript
 
-a()
-function a(){
-   alert("A")
+function a(width, height){
+   alert(width+" : "+height)
 }
-// alert("A") 실행
+a(10, 20)
+// 10 : 20
 
 ```
