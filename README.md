@@ -1,21 +1,7 @@
 ```javascript
 
-function test(){
-   let number = 10
-   return {
-       getOutput : function(){
-           return number
-       },
-       setOutput : function(value){
-           number = value
-       }
-   }
-}
-let clo = test("JS")
-console.log(clo.getOutput())
-// 10
-clo.setOutput(30)
-console.log(clo.getOutput())
-// 30
-
+setTimeout(function(){
+   console.log("A")
+}, 1000)
+// 1000ms 후 console.log("A") 실행
 ```
