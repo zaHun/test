@@ -1,12 +1,12 @@
 ```javascript
 
-function a(callback){
-   for(let i=0;i<2;i++){      
-       callback()
+function test(name){
+   let output = "Hello :"+name
+   return function(){
+       console.log(output)
    }
 }
-a(function(){console.log("A")})
-// "A"
-// "A"
+test("JS")()
+// Hello : JS
 
 ```
