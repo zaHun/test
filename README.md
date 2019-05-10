@@ -1,8 +1,9 @@
 ```javascript
 
-function a(){
+a()
+let a = function(){
    alert("A")
 }
-alert(a)
+// Uncaught ReferenceError
 
 ```
