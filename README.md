@@ -1,18 +1,8 @@
 ```javascript
 
-switch(number){
-  case 1:
-    console.log(number)
-    break;
-  case 2:
-    console.log(number)
-    break;
-  case 3:
-    console.log(number)
-    break;
-  default:
-    console.log(number)
-    break;
-}
+Boolean("")? console.log("A") : console.log("B")
+// "B"
+
+(조건) ? (true일때 실행) : (false 일때 실행)
 
 ```
