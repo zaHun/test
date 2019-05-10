@@ -1,7 +1,8 @@
 ```javascript
 
-console.log("" === false) // false
-console.log("1" === true) // false
-console.log(null !== 0)  // true
+if(true){
+  console.log("A") 
+}
+if(true) console.log("B")
 
 ```
