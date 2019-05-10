@@ -1,11 +1,7 @@
 ```javascript
 
-console.log(Boolean(0))  // false
-console.log(Boolean(''))  // false
-console.log(Boolean(NaN)) // false
-console.log(Boolean(null))  // false
-console.log(Boolean(undefined))  // false
-console.log(Boolean(1)) // true
-console.log(Boolean("  "))  // true
+console.log("" === false) // false
+console.log("1" === true) // false
+console.log(null !== 0)  // true
 
 ```
