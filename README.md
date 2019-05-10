@@ -4,6 +4,6 @@ a()
 function a(){
    alert("A")
 }
-// Uncaught ReferenceError
+// alert("A") 실행
 
 ```
