@@ -1,8 +1,7 @@
 ```javascript
 
-let a = setTimeout(function(){
+let a = setInterval(function(){
    console.log("A")
 }, 1000)
-clearTimeout(a)
-// 실행이 중단되어 아무것도 출력되지 않는다.
+// 1초 마다 A 출력
 ```
