@@ -1,7 +1,7 @@
 ```javascript
 
-let a = confirm("Input : ")
-console.log(typeof a) // boolean
-console.log(a) // true, false
+console.log("123"+85)  // "12385"
+console.log(123+"85")  // "12385"
+console.log("123"+"85") // "12385"
 
 ```
