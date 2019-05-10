@@ -1,7 +1,8 @@
 ```javascript
 
-setTimeout(function(){
+let a = setTimeout(function(){
    console.log("A")
 }, 1000)
-// 1000ms 후 console.log("A") 실행
+clearTimeout(a)
+// 실행이 중단되어 아무것도 출력되지 않는다.
 ```
