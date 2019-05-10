@@ -1,7 +1,7 @@
 ```javascript
 
-false || console.log("A")
-// "A"
-(조건) || (실행문)
+while(조건){
+
+}
 
 ```
