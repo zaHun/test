@@ -1,12 +1,21 @@
 ```javascript
 
-function test(name){
-   let output = "Hello :"+name
-   return function(){
-       console.log(output)
+function test(){
+   let number = 10
+   return {
+       getOutput : function(){
+           return number
+       },
+       setOutput : function(value){
+           number = value
+       }
    }
 }
-test("JS")()
-// Hello : JS
+let clo = test("JS")
+console.log(clo.getOutput())
+// 10
+clo.setOutput(30)
+console.log(clo.getOutput())
+// 30
 
 ```
