@@ -1,7 +1,7 @@
 ```javascript
 
-while(조건){
-
-}
+do{
+  실행문
+}while(조건)
 
 ```
