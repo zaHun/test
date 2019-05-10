@@ -1,7 +1,7 @@
 ```javascript
 
-let a = function(){
-   alert("output")
+function a(){
+   alert("A")
 }
 alert(a)
 
