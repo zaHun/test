@@ -1,8 +1,16 @@
 ```javascript
 
-let a = setInterval(function(){
-   console.log("A")
-}, 1000)
-clearInterval(a)
-// 반복을 중단해 아무것도 실행되지 않는다.
+function test(){
+   let count = 0
+   let in = function(){
+      return ++count;
+   }
+   return in;
+}
+let increase = test();
+console.log(increase());
+// 1
+console.log(increase());
+// 2
+
 ```
