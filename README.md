@@ -39,4 +39,16 @@ with(person){
    // 15
 }
 
+let person = { }
+person.age = 17
+person.gender = "male"
+console.log(person)
+// { age:17, gender:"male" } 
+
+delete (person.age)
+console.log(person)
+// { gender : "male" }
+
+
+
 ``'
