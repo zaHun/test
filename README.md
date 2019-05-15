@@ -13,4 +13,8 @@ console.log(increase());
 console.log(increase());
 // 2
 
+
+console.log(typeof([]))
+// object
+
 ```
