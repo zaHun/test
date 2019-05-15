@@ -21,11 +21,8 @@ console.log(typeof([]))
 let product = {
    name : "Mango",
    price : 2000,
-   country_of_orgin : "Philippines"
+   country_of_orgin : "Philippines",
+   setPro : function(){    }
 }
-console.log(product['name'])
-// Mango
-console.log(product.name)
-// Mango
 
 ```
