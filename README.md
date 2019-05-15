@@ -22,7 +22,7 @@ let product = {
    name : "Mango",
    price : 2000,
    country_of_orgin : "Philippines",
-   setPro : function(){    }
+   setPro : function(){  console.log(this.name) }
 }
 
 ```
