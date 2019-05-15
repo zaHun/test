@@ -25,4 +25,8 @@ let product = {
    setPro : function(){  console.log(this.name) }
 }
 
-```
+for(let key in window){
+   console.log(key + " : " + window[key])
+}
+
+``'
