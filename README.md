@@ -17,4 +17,15 @@ console.log(increase());
 console.log(typeof([]))
 // object
 
+
+let product = {
+   name : "Mango",
+   price : 2000,
+   country_of_orgin : "Philippines"
+}
+console.log(product['name'])
+// Mango
+console.log(product.name)
+// Mango
+
 ```
