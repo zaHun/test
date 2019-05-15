@@ -29,4 +29,14 @@ for(let key in window){
    console.log(key + " : " + window[key])
 }
 
+let person = {
+   age : 15
+}
+console.log('age' in person)
+// true
+with(person){
+   console.log(age)
+   // 15
+}
+
 ``'
