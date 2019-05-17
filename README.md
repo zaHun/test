@@ -133,4 +133,13 @@ location.replace( link )
 window.onload(function(){})
 // window 객체의 Load Complete 시점 
 
+console.log(navigator.appCodeName)
+// "Mozilla"  (Browser Code)
+console.log(navigator.appName)
+// "Netscape"  (Browser Name)
+console.log(navigator.appVersion)
+// "5.0 (Windows ~~~~) (Browser Version)
+console.log(navigator.platform)
+// "Win32" (Using OS)
+
 ``'
