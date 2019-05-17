@@ -147,4 +147,13 @@ window.onload = function(){
    let wrap = document.getElementById("wrap")
 }
 
+let h1 = document.createElement("h1");
+// h1 tag 생성
+let textNode = document.createTextNode("Hello Create");
+// Text Node 생성 
+h1.appendChild(textNode)
+// h1 tag 에 생성한 Text Node 연결
+document.body.append(h1)
+// document.body 태그에 h1 를 연결
+
 ``'
