@@ -86,4 +86,11 @@ console.log("5" === 5)
 // false 자료형 불일치
 console.log("" === 0)
 // false 자료형 불일치
+
+console.log(NaN == NaN)
+// false
+console.log(NaN === NaN)
+// false
+console.log(isNaN(NaN))
+// true
 ``'
