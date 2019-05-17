@@ -93,4 +93,16 @@ console.log(NaN === NaN)
 // false
 console.log(isNaN(NaN))
 // true
+
+console.log(typeof Number("5"))
+// "number"
+console.log(typeof String(5))
+// "string"
+console.log(parseInt("5.32"), typeof parseInt("5.32"))
+// 5 true
+console.log(Boolean(0))
+// false
+console.log(parseFloat("5.32"))
+// 5.32
+
 ``'
