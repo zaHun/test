@@ -162,5 +162,16 @@ tit.setAttribute("height", 300)
 console.log(tit.getAttribute("width"))
 // 500
 
+document.getElementById("wrap")
+// wrap id 속성 태그를 1개 가져옵니다.
+document.getElementsByName("password")
+// "password" name 속성을 가진 태그를 배열로 가져온다.
+document.getElementsByTagName(h1)
+// h1 태그 객체를 배열로 가져온다.
+document.getquerySelect(".cls")
+// cls 클래스 속성을 가진 태그를 1개 가져온다.
+document.getquerySelectAll(".cls")
+// clas 클래스 속성을 가진 태그를 모두 배열로 가져온다.
+
 
 ``'
