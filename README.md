@@ -105,6 +105,10 @@ console.log(Boolean(0))
 console.log(parseFloat("5.32"))
 // 5.32
 
+var testVar = 2483
+console.log(window.testVar)
+// 2483
+
 window.open([URL], [name], [features], [replace])
 // 새 window 객체를 생성 (새 창 열기)
 
