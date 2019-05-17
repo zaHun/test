@@ -71,4 +71,10 @@ if(true){
 let b;
 console.log(b)
 // undefined
+
+console.log(null)
+// null
+console.log(typeof null)
+// "object"
+
 ``'
