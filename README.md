@@ -77,4 +77,13 @@ console.log(null)
 console.log(typeof null)
 // "object"
 
+console.log("" == 0)
+// true
+console.log("5" == 5)
+// true
+
+console.log("5" === 5)
+// false 자료형 불일치
+console.log("" === 0)
+// false 자료형 불일치
 ``'
