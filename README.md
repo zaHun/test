@@ -56,5 +56,10 @@ console.log("true")
 console.log(Boolean(""))
 // false  typeof -> Boolean
 
-
+console.log(10, typeof 10)
+// 10 "number"
+console.log(10.423, typeof 10.423)
+// 10.423 "number"
+console.log(NaN, typeof NaN)
+// NaN "number"
 ``'
