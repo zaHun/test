@@ -142,4 +142,9 @@ console.log(navigator.appVersion)
 console.log(navigator.platform)
 // "Win32" (Using OS)
 
+
+window.onload = function(){
+   let wrap = document.getElementById("wrap")
+}
+
 ``'
