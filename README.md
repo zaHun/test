@@ -130,4 +130,7 @@ location.reload()
 location.replace( link )
 // 해당 link 로 이동 (assing 과 다르게 뒤로가기 불가)
 
+window.onload(function(){})
+// window 객체의 Load Complete 시점 
+
 ``'
