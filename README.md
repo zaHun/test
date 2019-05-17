@@ -112,4 +112,15 @@ console.log(window.testVar)
 window.open([URL], [name], [features], [replace])
 // 새 window 객체를 생성 (새 창 열기)
 
+console.log(screen.width)
+// 화면의 너비
+console.log(screen.height)
+// 화면의 높이
+console.log(screen.availWidth)
+// 실제 화면에서 사용 가능한 너비
+console.log(screen.availHeight)
+// 실제 화면에서 사용 가능한 높이
+console.log(screen.colorDepth)
+// 사용 가능한 색상 
+
 ``'
