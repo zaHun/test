@@ -159,5 +159,8 @@ document.body.append(h1)
 let tit = document.createElement("h1")
 tit.setAttribute("width", 500)
 tit.setAttribute("height", 300)
+console.log(tit.getAttribute("width"))
+// 500
+
 
 ``'
