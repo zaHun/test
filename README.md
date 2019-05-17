@@ -49,6 +49,12 @@ delete (person.age)
 console.log(person)
 // { gender : "male" }
 
+console.log("String")
+// "String"
+console.log("true")
+// "true"  typeof("true")  -> String
+console.log(Boolean(""))
+// false  typeof -> Boolean
 
 
 ``'
