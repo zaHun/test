@@ -66,7 +66,7 @@ console.log(NaN, typeof NaN)
 if(true){
    console.log(a)
    // undefined
-   a = 10
+   var a = 10
 }
 let b;
 console.log(b)
