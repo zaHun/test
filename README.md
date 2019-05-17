@@ -70,4 +70,5 @@ if(true){
 }
 let b;
 console.log(b)
+// undefined
 ``'
