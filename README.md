@@ -123,4 +123,11 @@ console.log(screen.availHeight)
 console.log(screen.colorDepth)
 // 사용 가능한 색상 
 
+location.assign( link )
+// 해당 link 로 강제 이동
+location.reload()
+// 페이지 새로고침
+location.replace( link )
+// 해당 link 로 이동 (assing 과 다르게 뒤로가기 불가)
+
 ``'
