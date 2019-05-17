@@ -156,4 +156,8 @@ h1.appendChild(textNode)
 document.body.append(h1)
 // document.body 태그에 h1 를 연결
 
+let tit = document.createElement("h1")
+tit.setAttribute("width", 500)
+tit.setAttribute("height", 300)
+
 ``'
