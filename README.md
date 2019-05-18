@@ -175,3 +175,9 @@ document.getquerySelectAll(".cls")
 
 
 ``'
+
+```css
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" media="(max-width:480px)" href="mobile.css" />
+
+```
