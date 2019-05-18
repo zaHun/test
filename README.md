@@ -192,6 +192,10 @@ func1();
 // Func3
 // Func2
 
+let btn = document.getElementById("btn")
+btn.onclick = function(){ };
+
+btn.addEventListener('click', functon(){});
 ```
 
 ```html
