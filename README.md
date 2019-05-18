@@ -216,4 +216,10 @@ btn.addEventListener('click', functon(){});
    }
 </style>
 
+<button onclick="function(){}">Click Me</button>
+
+<script>
+   
+</script>
+
 ```
