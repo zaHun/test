@@ -174,7 +174,7 @@ document.getquerySelectAll(".cls")
 // clas 클래스 속성을 가진 태그를 모두 배열로 가져온다.
 
 
-``'
+```
 
 ```html
 <link rel="stylesheet" href="style.css" />
