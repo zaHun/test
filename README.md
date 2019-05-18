@@ -180,4 +180,18 @@ document.getquerySelectAll(".cls")
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" media="(max-width:480px)" href="mobile.css" />
 
+<style>
+   .container { width:1280px; }
+   
+   @media (max-width:600px){
+      .container { width:600px; } 
+   }
+   @media (min-width:700px){
+      .container { width:100%; } 
+   }
+   @media (min-width:600px) and (max-width:700px){
+      .container { width:650px; } 
+   }
+</style>
+
 ```
