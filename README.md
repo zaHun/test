@@ -176,7 +176,7 @@ document.getquerySelectAll(".cls")
 
 ``'
 
-```css
+```html
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" media="(max-width:480px)" href="mobile.css" />
 
