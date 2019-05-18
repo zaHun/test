@@ -174,6 +174,24 @@ document.getquerySelectAll(".cls")
 // clas 클래스 속성을 가진 태그를 모두 배열로 가져온다.
 
 
+function func1(){
+   console.log("Func1")
+   func2();
+}
+function func2(){
+   setTimeout(function(){
+      console.log("Func2");
+   }, 0);
+   func3();
+}
+function func3(){
+   console.log("Func3");
+}
+func1();
+// Func1
+// Func3
+// Func2
+
 ```
 
 ```html
