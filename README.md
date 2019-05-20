@@ -238,4 +238,7 @@ type([]) # <class 'list'>
 type((type([])) # <class 'type'>
 type([]) == list # true
 isinstance([], list) # true
+
+s = "Hello"
+print(s[::-1]) # olleH
 ```
