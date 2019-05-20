@@ -223,3 +223,14 @@ btn.addEventListener('click', functon(){});
 </script>
 
 ```
+
+
+```python
+
+f = open('data.txt', 'w')
+# Write 모드 새파일을 만든다.
+f.write("hello\n')
+# 6   쓴 항목 수 반환
+f.close() 
+# 자원해제
+```
