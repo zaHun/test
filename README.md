@@ -233,4 +233,9 @@ f.write("hello\n')
 # 6   쓴 항목 수 반환
 f.close() 
 # 자원해제
+
+type([]) # <class 'list'>
+type((type([])) # <class 'type'>
+type([]) == list # true
+isinstance([], list) # true
 ```
