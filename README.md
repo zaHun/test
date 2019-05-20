@@ -241,4 +241,8 @@ isinstance([], list) # true
 
 s = "Hello"
 print(s[::-1]) # olleH
+
+ord("s") # 115
+chr(115) # "s"
+
 ```
