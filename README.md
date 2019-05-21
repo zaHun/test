@@ -276,4 +276,10 @@ public interface 하위Interface extends 상위Inter1, 상위Inter2{
 public class HashSet<E> extends AbstractSet<E>
 implements Set<E>, Cloneable, Serializable
 
+class ClassName{
+   class NestedClass{
+   
+   }
+}
+
 ```
