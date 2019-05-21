@@ -246,3 +246,15 @@ ord("s") # 115
 chr(115) # "s"
 
 ```
+
+
+```java
+
+public void method(Parent parent){
+   if( parent instanceof Child ){
+      Child child = (Child)parent;
+   }
+}
+
+
+```
