@@ -299,6 +299,17 @@ class ClassName{
 }
 
 class ClassName{
+   void method1(){
+      class NestedClass{
+         NestedClass()
+         int field1;
+         void method1()
+         // can not public, private, static      
+      }
+   }
+}
+
+class ClassName{
    interface NestedInterface{
  
    }
