@@ -318,4 +318,10 @@ class ClassName{
    }
 }
 
+void method(){
+   class ThreadTo extends Thread{}
+   Thread thread = new TreadTo();
+   thread.start();
+}
+
 ```
