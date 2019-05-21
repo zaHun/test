@@ -265,4 +265,8 @@ public class 클래스명 implements 인터페이스명{
    // abstract Method 실체 메소드 
 }
 
+인터페이스 변수 = new 인터페이스(){
+
+};
+
 ```
