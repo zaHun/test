@@ -278,9 +278,15 @@ implements Set<E>, Cloneable, Serializable {}
 
 class ClassName{
    class NestedClass{
-   
+      NestedClass()
+      int field1;
+      // static int field2; X
+      void method1()
+      // static void method2() X
    }
 }
+
+ClassName $ NestedClass . class
 
 class ClassName{
    static class NestedClass{
