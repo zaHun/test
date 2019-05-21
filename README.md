@@ -282,4 +282,10 @@ class ClassName{
    }
 }
 
+class ClassName{
+   interface NestedInterface{
+ 
+   }
+}
+
 ```
