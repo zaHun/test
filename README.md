@@ -290,7 +290,11 @@ ClassName $ NestedClass . class
 
 class ClassName{
    static class NestedClass{
-   
+      NestedClass()
+      int field1;
+      static field2;
+      void method1()
+      static method2()
    }
 }
 
