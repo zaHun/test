@@ -309,6 +309,9 @@ class ClassName{
    }
 }
 
+ClassName $1 NestedClass  .class
+// $1이 포함된 Byte Code File 이 생성된다.
+
 class ClassName{
    interface NestedInterface{
  
