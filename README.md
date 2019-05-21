@@ -256,5 +256,7 @@ public void method(Parent parent){
    }
 }
 
+// 객체 instanceof 클래스
+// 해당 클래스의 Instance 일시 true 아닐 시 false
 
 ```
