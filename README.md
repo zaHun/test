@@ -269,4 +269,8 @@ public class 클래스명 implements 인터페이스명{
 
 };
 
+public interface 하위Interface extends 상위Inter1, 상위Inter2{
+   
+}
+
 ```
