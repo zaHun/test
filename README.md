@@ -259,4 +259,10 @@ public void method(Parent parent){
 // 객체 instanceof 클래스
 // 해당 클래스의 Instance 일시 true 아닐 시 false
 
+
+
+public class 클래스명 implements 인터페이스명{
+   // abstract Method 실체 메소드 
+}
+
 ```
