@@ -208,7 +208,10 @@ function Person(name, age, job){
 }
 let person1 = new Person("A", 12, "student");
 let person2 = new Person("B", 29, "officeMan");
+console.log(person1.getName()) // A
 
+person1 == person2
+// false
 
 
 
