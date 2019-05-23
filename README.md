@@ -215,6 +215,13 @@ console.log(person1 == person2)
 console.log(person1 instanceof Person)
 // true
 
+function Person(name, age, job){
+   this.name = name
+   this.age = age
+   this.job = job
+}
+
+Person.prototype.getAge = function(){ return this.age }
 
 
 
