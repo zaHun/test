@@ -237,6 +237,17 @@ let cons2 = Cons("Hello")
 console.log(value)
 // Hello
 
+function Rect(w, h){
+   let width = w
+   let height = h
+   
+   this.getWidth = function() { return width }
+   this.setWidth = function(w) { width = w }
+   this.getHeight = function() { return height }
+   this.setHeight = function(h) { height = h }
+}
+
+
 ```
 
 ```html
