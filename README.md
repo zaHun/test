@@ -246,7 +246,15 @@ function Rect(w, h){
    this.getHeight = function() { return height }
    this.setHeight = function(h) { height = h }
 }
-
+let rect = new Rect(5, 6)
+console.log(rect.height) // undefined
+console.log(rect.getHeight()) // 6
+Rect.prototype.test = function(){
+   console.log(this)
+   // Rect {}
+   console.log(height)
+   // height is not defined
+}
 
 ```
 
