@@ -222,7 +222,9 @@ function Person(name, age, job){
 }
 
 Person.prototype.getAge = function(){ return this.age }
-
+let person3 = new Person("GG", 46, "no")
+console.log(person3.getAge())
+// 46
 
 
 ```
