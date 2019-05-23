@@ -256,6 +256,18 @@ Rect.prototype.test = function(){
    // height is not defined
 }
 
+function Square(length){
+   this.base = Rect
+   this.base(length, length);
+}
+Square.prototype = Rect.prototype;
+Square.prototype.constructor = Square;
+
+let square = new Square(7)
+console.log(square.getHeight())
+// 7
+
+
 ```
 
 ```html
