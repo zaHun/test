@@ -196,6 +196,16 @@ let btn = document.getElementById("btn")
 btn.onclick = function(){ };
 
 btn.addEventListener('click', functon(){});
+
+
+function Person(){
+   
+}
+let person = new Person();
+
+
+
+
 ```
 
 ```html
