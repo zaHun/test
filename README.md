@@ -198,10 +198,17 @@ btn.onclick = function(){ };
 btn.addEventListener('click', functon(){});
 
 
-function Person(){
-   
+function Person(name, age, job){
+   this.name = name
+   this.age = age
+   this.job = job
+   this.getName = function(){
+      return this.name
+   }
 }
-let person = new Person();
+let person1 = new Person("A", 12, "student");
+let person2 = new Person("B", 29, "officeMan");
+
 
 
 
