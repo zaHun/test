@@ -266,6 +266,7 @@ Square.prototype.constructor = Square;
 let square = new Square(7)
 console.log(square.getHeight())
 // 7
+console.log(square instanceof Rect)
 
 
 ```
