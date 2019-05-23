@@ -227,6 +227,16 @@ console.log(person3.getAge())
 // 46
 
 
+function Cons(value){
+   this.value = value
+}
+let cons1 = new Cons("Hello")
+console.log(cons1.value)
+// Hello
+let cons2 = Cons("Hello")
+console.log(value)
+// Hello
+
 ```
 
 ```html
