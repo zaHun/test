@@ -27,4 +27,20 @@ Box<String> box = new Box<String>();
 box.set("ABSDF");
 String val = box.get();
 
+public class Box<T, M>{
+  private T box1;
+  private M box2;
+  
+  public T getBox1(){ return this.box1; }
+  public void setBox1(T box1){ this.box1 = box1; }
+  
+  public M getBox2(){ return this.box2; }
+  public void setBox2(M box2){ this.box2 = box2; } 
+
+}
+
+Box<String, Integer> box = new Box<String, Integer>();
+box.setBox1("AAA");
+box.setBox2(14433);
+
 ```
