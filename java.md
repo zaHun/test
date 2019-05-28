@@ -40,7 +40,11 @@ public class Box<T, M>{
 }
 
 Box<String, Integer> box = new Box<String, Integer>();
+
 box.setBox1("AAA");
 box.setBox2(14433);
+
+String str = box.getBox1();
+int number = box.getBox2();
 
 ```
