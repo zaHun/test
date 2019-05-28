@@ -39,7 +39,7 @@ public class Box<T, M>{
 
 }
 
-Box<String, Integer> box = new Box<String, Integer>();
+Box<String, Integer> box = new Box<>();
 
 box.setBox1("AAA");
 box.setBox2(14433);
