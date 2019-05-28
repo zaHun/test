@@ -47,4 +47,15 @@ box.setBox2(14433);
 String str = box.getBox1();
 int number = box.getBox2();
 
+// public <T> Box<T> boxing(T t){ }
+public class Util{
+
+  public static <T> Box<T> boxing(T t){
+    Box<T> box = new Box<>();
+    box.set(t)
+    return box;
+  }
+
+}
+
 ```
