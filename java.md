@@ -62,4 +62,13 @@ Box<Integer> box = <Integer>boxing(100);
 Box<Integer> box = boxing(100);
 
 
+<T extends Number>
+
+
+public static <T extends Number> double compare(T t1, T t2){
+  double v1 = t1.doubleValue();
+  double v2 = t2.doubleValue();
+  return v1 + v2;
+}
+
 ```
