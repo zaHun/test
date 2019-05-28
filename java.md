@@ -58,4 +58,8 @@ public class Util{
 
 }
 
+Box<Integer> box = <Integer>boxing(100);
+Box<Integer> box = boxing(100);
+
+
 ```
