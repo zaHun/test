@@ -61,8 +61,11 @@ public class Util{
 Box<Integer> box = <Integer>boxing(100);
 Box<Integer> box = boxing(100);
 
+<T>
 
 <T extends Number>
+
+<T super String>
 
 
 public static <T extends Number> double compare(T t1, T t2){
