@@ -269,6 +269,15 @@ console.log(square.getHeight())
 console.log(square instanceof Rect)
 // true
 
+
+a = b
+(f());
+// a = b(f());
+
+a = b
+f();
+// a = b f(); ? XXX
+
 ```
 
 ```html
